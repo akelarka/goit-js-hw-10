@@ -56,6 +56,7 @@ function markupList(countries) {
 
 }
 function error() {
-  countryList.innerHTML = "";
+  countryList.innerHTML = '';
+  countryInfo.innerHTML = '';
   return Notiflix.Notify.failure('Oops, there is no country with that name', DEBOUNCE_DELAY);
 };
